@@ -1,0 +1,59 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/fujin/fujin",
+    "pages/yonghu/yonghu",
+    "pages/qianbao/qianbao",
+    "pages/jilu/jilu",
+    "pages/fankui/fankui",
+    "pages/fapiao/fapiao",
+    "pages/guanyu/guanyu",
+    "pages/tingche/tingche",
+    "pages/xufei/xufei",
+    "pages/chefei/chefei",
+    "pages/chongzhi/chongzhi",
+    "pages/diaocha/diaocha",
+    "pages/zixun/zixun",
+    "pages/guize/guize",
+    "pages/biaoqian/biaoqian",
+    "pages/jishi/jishi",
+    "pages/set/set",
+    "pages/howtopark/howtopark",
+    "pages/operator_guide/operator_guide",
+    "pages/whencontinue/whencontinue",
+    "pages/chargedes/chargedes"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#29faf9",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": "ture"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "停车",
+      "iconPath": "images/flashlight1.png",
+      "selectedIconPath": "images/flashlight.png"
+    },
+    {
+      "pagePath": "pages/fujin/fujin",
+      "text": "附近",
+      "iconPath": "images/dibiao_tianchong1.png",
+      "selectedIconPath": "images/dibiao_tianchong.png"
+    },
+    {
+      "pagePath": "pages/yonghu/yonghu",
+      "text": "我的",
+      "iconPath": "images/yonghu1.png",
+      "selectedIconPath": "images/yonghu.png"
+    }]
+    
+  }
+}
+

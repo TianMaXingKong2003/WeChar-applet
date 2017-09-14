@@ -1,0 +1,23 @@
+
+<view class="section">
+
+<image class="images"src="../../images/naozhong.png"></image>
+
+  <text class="text" >距离停车结束还有：</text>
+
+  <view class="timer">{{clock}}</view>
+
+</view>
+
+<view class="section2">
+  <view class="left" bindtap="toast">
+  <image class="images2"src="../../images/set.png"></image>
+    <text class="text2" >设置</text>
+  </view>
+ 
+  <view class="right" bindtap="toast2">
+  <image class="images2"src="../../images/chongzhi.png"></image>
+    <text class="text2" >充值</text>
+  </view>
+
+</view>

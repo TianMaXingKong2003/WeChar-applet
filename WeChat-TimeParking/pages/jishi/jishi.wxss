@@ -1,0 +1,64 @@
+/* pages/jishi/jishi.wxss */
+.section{
+ 
+  height: 650rpx;
+align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.section2{
+
+  height: 600rpx;
+
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  
+  align-items: center;
+margin-left: 100rps;
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+}
+.right{
+ 
+ align-items: center;
+margin-left: 100rps;
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+}
+.text{
+ 
+  font-size: 38rpx;
+
+  margin-top: 50rpx;
+
+  color: green;
+  font-weight: 100rpx;
+}
+.text2{
+ 
+  font-size: 38rpx;
+
+  margin-top: 10rpx;
+
+  color: green;
+  font-weight: 100rpx;
+}
+.timer{
+  font-size: 120rpx;
+  color: #29faf9;
+  margin-top: 50rpx;
+}
+.images{
+  height: 150rpx;
+  width: 150rpx;
+   margin-top: 150rpx;
+}
+.images2{
+  height: 100rpx;
+  width: 100rpx;
+   margin-top: 150rpx;
+}

@@ -1,0 +1,73 @@
+<!--pages/guanyu/guanyu.wxml-->
+<view class="container list">
+    
+     <view bindtap="zhinan" class="topline">
+       <image  style="height:80rpx;width:80rpx;"mode="aspectFit" src="../../images/compass.png"/>
+       <view  class="center">
+          <text>操作指南</text>
+       </view>
+       <view >
+          <image class="right"style="height:30rpx;width:30rpx;" src="../../images/jiantou.jpg"/>
+       </view>
+     </view>
+
+     <view class="list-item">
+       <image style="height:80rpx;width:80rpx;"mode="aspectFit" src="../../images/map.png" />
+
+       <view class="center">
+        <text>  离线地图</text>
+       </view>
+
+         <view >
+          <image class="right"style="height:30rpx;width:30rpx;" src="../../images/jiantou.jpg"/>
+        </view>
+     </view>
+
+     <view class="list-item">
+       <image style="height:80rpx;width:80rpx;"mode="aspectFit" src="../../images/update1.png" />
+
+       <view class="center">
+        <text>  版本更新</text>
+       </view>
+
+         <view>
+          <image class="right"style="height:30rpx;width:30rpx;" src="../../images/jiantou.jpg"/>
+        </view>
+     </view>
+     
+     <view bindtap="call" class="list-item">
+       <image style="height:80rpx;width:80rpx;"mode="aspectFit" src="../../images/rexian.png"/>
+
+       <view class="center1">
+        <text>  客服热线</text>
+       </view>
+
+        <view class="web">
+            <text>123456789910</text>
+        </view>
+     </view>
+
+     <view class="list-item">
+       <image style="height:80rpx;width:80rpx;"mode="aspectFit" src="../../images/web.png"/>
+
+       <view class="center1">
+        <text>  门户网站</text>
+       </view>
+       <view class="web">
+        <text>www.qq.com</text>
+       </view>
+     </view>
+
+     <view class="list-item">
+       <image style="height:80rpx;width:80rpx;"mode="aspectFit" src="../../images/weibo.gif" />
+
+       <view class="center">
+        <text>  新浪微博</text>
+       </view>
+
+        <view >
+          <image class="right"style="height:30rpx;width:30rpx;" src="../../images/jiantou.jpg"/>
+        </view>
+     </view>
+
+</view>

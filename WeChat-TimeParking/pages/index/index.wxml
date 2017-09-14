@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="back">
+<view class="tingche">
+    <image bindtap="toast"src="../../images/tingche.png"
+     style="width: 450rpx;height: 450rpx;"></image>
+     <text class="dian">点击停车</text>
+     <image class="up"src="../../images/up.png"
+     style="width: 50rpx;height: 50rpx;"></image>
+     
+  </view>
+
+
+<view class="list">
+  <view class="list-item"bindtap="toast1">
+    <image class="left" src="../../images/clock.png"></image>
+    <view class="right">
+      <text class="title">次日续时</text>
+      <text class="info">次日停车位提前申请，助您停车省心</text>
+    </view>
+  </view>
+  <view class="list-item"bindtap="toast2">
+    <image class="left" src="../../images/createtask.png"></image>
+    <view class="right">
+      <text class="title">待缴车费</text>
+      <text class="info">请尽快缴纳车费，以免影响停车申请</text>
+    </view>
+  </view>
+  
+  <view class="list-item"bindtap="toast4">
+    <image class="left" src="../../images/brush.png"></image>
+    <view class="right">
+      <text class="title">问卷调查</text>
+      <text class="info">为提高停车服务，我们期待您的参与</text>
+    </view>
+  </view>
+  <view class="list-item"bindtap="toast5">
+    <image class="left" src="../../images/play.png" ></image>
+    <view class="right">
+      <text class="title">旅游资讯</text>
+      <text class="info">实时推送最新最热的旅游计划</text>
+    </view>
+  </view>
+</view>
+</view>

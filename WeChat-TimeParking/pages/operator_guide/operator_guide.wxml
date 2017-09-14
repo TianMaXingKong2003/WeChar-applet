@@ -1,0 +1,11 @@
+<!--operator_guide.wxml-->
+<view bindtap="chargedes"class="item top_item">
+  <text>收费策略说明</text>
+</view>
+<view bindtap="whencontinue"class="item ">
+  <text>次日续时说明</text>
+</view>
+<view bindtap="howtopark" class="item ">
+  <text>怎么进行快速停车缴费?</text>
+</view>
+

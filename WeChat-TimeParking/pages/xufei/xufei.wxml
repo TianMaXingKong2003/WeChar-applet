@@ -1,0 +1,100 @@
+<view class="section3"></view>
+<button class="button2"  bindtap="toast">查看次日续时的收费规则 \t》</button>
+<view class="section3"></view>
+
+
+<view class="section3"></view>
+<text class="text2">停车位的编号</text>
+<view class="section"> 
+
+  <input class="input" 
+  placeholder-style="font-size:15px" 
+  maxlength="5"type="number"
+  bindinput="inputHaoMa"
+  auto-focus
+  />
+  
+</view>
+<view class="section2">
+  <icon type="info" size="16" color="gainsboro"/>
+  <view class="text">
+    <text>请输入地面上标记的5位停车位数字</text>
+  </view>
+</view>
+<view class="section3"></view>
+<text class="text2">需购买的时长</text>
+
+<view class="section4">
+  <view class="text3">     
+    <picker  value="{{index}}"  bindchange="bindPickerChange" range="{{array}}">     
+      <view class="picker"> {{array[index]}}小时      </view> 
+    </picker>
+    <picker  value="{{index2}}"  bindchange="bindPickerChange2" range="{{array2}}">
+       <view class="picker2">{{array2[index2]}}分钟</view>  
+    </picker> 
+  </view>  
+</view>
+
+<view class="section2">
+  <icon type="info" size="16" color="gainsboro"/>
+  <view class="text">
+    <text>请点击时间进行选择</text>
+  </view>
+</view>
+
+<view class="section3"></view>
+
+<view class="section5">
+  <text class="text5">￥</text>
+  <text class="text4" wx:if="{{(x+y)*0.02!=0&&(x+y)*0.02!=1&&(x+y)*0.02!=2&&(x+y)*0.02!=3&&(x+y)*0.02!=4&&(x+y)*0.02!=5&&(x+y)*0.02!=6&&(x+y)*0.02!=7&&(x+y)*0.02!=8&&(x+y)*0.02!=9&&(x+y)*0.02!=10&&(x+y)*0.02!=11&&(x+y)*0.02!=12}}">{{(x+y)*0.02}}</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==0}}">0.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==1}}">1.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==2}}">2.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==3}}">3.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==4}}">4.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==5}}">5.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==6}}">6.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==7}}">7.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==8}}">8.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==9}}">9.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==10}}">10.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==11}}">11.0</text>
+  <text class="text4" wx:if="{{(x+y)*0.02==12}}">12.0</text>
+  <text class="text6">/ 账户余额￥0.00元</text>
+</view>
+  <button class="button" bindtap="button"data-statu="open">确认</button>
+
+
+
+
+
+
+ <!--mask-->
+ <view class="drawer_screen" bindtap="button" data-statu="close" wx:if="{{showModalStatus}}">
+ </view>
+  <!--content-->
+  <!--使用animation属性指定需要执行的动画-->
+ 
+
+
+
+<view animation="{{animationData}}" class="drawer_box" wx:if="{{showModalStatus}}">   
+  <!--drawer content-->  
+  <view class="drawer_title">温馨提示</view> 
+  <view class="drawer_content"> 
+      <view class="btn_ok2" wx:if="{{haoma !=12345 }}"
+      >o(︶︿︶)o要输入正确的车位序号哦</view> 
+
+      <view class="btn_ok2" wx:if="{{haoma ==12345&&(x+y)*0.02==0}}"
+      >(￢_￢)您还没有输入时间呢</view> 
+
+      <view class="btn_ok2"  wx:if="{{haoma ==12345&&(x+y)*0.02 >= 3.6}}"
+      >(￢_￢)您选的时间太多啦，该车位只能使用3个小时以内哦</view> 
+
+      <view class="btn_ok2"   wx:if="{{0 !=0 }}"
+      >(＞﹏＜)余额不足啦，为了不给您的出行带来不便需要尽快充值的</view> 
+     
+  </view> 
+  <view class="btn_ok" bindtap="button" data-statu="close">确定</view> 
+</view>
+

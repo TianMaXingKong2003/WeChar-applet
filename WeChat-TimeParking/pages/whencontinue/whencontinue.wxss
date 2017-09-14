@@ -1,0 +1,21 @@
+/* whencontinue.wxss */
+.item{
+  background-color: whitesmoke;
+  border-top: 1rpx solid whitesmoke;
+  border-bottom: 1rpx solid whitesmoke;
+  font-size: 20px;
+  padding: 20rpx;
+  
+}
+.content{
+  word-wrap: break-word;
+  background: white;
+  border: 1rpx solid white;
+  font-size: 14px;
+  margin-top: 30rpx;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+.list{
+  padding: 20rpx 20rpx 20rpx 20rpx;
+}

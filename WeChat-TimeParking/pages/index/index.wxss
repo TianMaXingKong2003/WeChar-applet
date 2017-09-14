@@ -1,0 +1,71 @@
+/**index.wxss**/
+.tingche{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0rpx 120rpx 0rpx;
+  box-sizing: border-box;
+ margin: 0px 0px 0px 0px; 
+  background-color:#29faf9;
+}
+.logo{
+  margin: 0px 0px 0px 0px;
+}
+.list{
+  border: 1rpx;
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 2rpx;
+  height: 1000rpx;
+}
+.list-item{
+  border-bottom: 1rpx solid #cccccc;
+  height: 160rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  border: 1rpx;
+  width: 80rpx;
+  height: 80rpx;
+  margin: 40rpx;
+}
+.right{
+  border: 1rpx ;
+  margin: 20rpx;
+}
+.title{
+  font-size: 50rpx;
+  border: 1rpx ;
+  display: flex;
+  flex-direction: column;
+  margin: 5rpx;
+  color: black;
+  
+}
+.info{
+  font-size: 32rpx;
+  border: 1rpx ;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rpx;
+  color: gray;
+}
+.dian{
+  font-size: 40rpx;
+  margin-top: 15rpx;
+  color:white;
+}
+.up{
+  
+  padding: 220rpx 0rpx 0rpx 0rpx;
+  
+}
+.up2{
+  
+  padding: 1rpx 0rpx 0rpx 0rpx;
+  
+}

@@ -1,0 +1,7 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#29faf9",
+  "navigationBarTitleText": "发票地址",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": "ture"
+}

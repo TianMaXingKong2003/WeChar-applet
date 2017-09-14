@@ -1,0 +1,7 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "white",
+  "navigationBarTitleText": "次日续时说明",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": "ture"
+}

@@ -1,0 +1,7 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "white",
+  "navigationBarTitleText": "关于我们",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": "ture"
+}

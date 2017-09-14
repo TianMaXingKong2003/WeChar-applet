@@ -1,0 +1,33 @@
+<!--whencontinue.wxml-->
+<view class="item">
+  <view class="list">
+    <text>{{title1}}</text>
+    <view class="content">
+      <text>{{content1}}</text>
+    </view>
+  </view>
+</view>
+<view class="item">
+  <view class="list">
+    <text>{{title2}}</text>
+    <view class="content">
+      <text>{{content2}}</text>
+    </view>
+  </view>
+</view>
+<view class="item">
+  <view class="list">
+    <text>{{title3}}</text>
+    <view class="content">
+      <text>{{content3}}</text>
+    </view>
+  </view>
+</view>
+<view class="item">
+  <view class="list">
+    <text>{{title4}}</text>
+    <view class="content">
+      <text>{{content4}}</text>
+    </view>
+  </view>
+</view>

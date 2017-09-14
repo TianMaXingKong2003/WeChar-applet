@@ -1,0 +1,34 @@
+<view class="section">
+  <view class="title"><icon type="success" color="#29faf9" size="18"/>
+    <text class="title2" >如何使用次日续时？</text></view>
+
+    <text class="text">如果您在今日00:00-7:29停车，工作日您可以提前申请今日7:30-20:00的收费时段，非工作日您可以提前申请今日10:00-20:00的收费时段；
+如果您在今日7:30-24:00停车，工作日您可以提前申请明日7:30-20:00的收费时段，非工作日您可以提前申请明日10:00-20:00的收费时段；
+次日续时申请完成时系统不扣费，不计时；
+在免费时段结束，申请的收费时段开始时间——工作日为7:30，非工作日为10:00，系统自动替您完成停车缴费操作，并会进行扣费和计时。
+    </text>
+
+<view class="title"><icon type="success" color="#29faf9"size="18"/>
+    <text class="title2">哪些类型的车位支持次日续时功能？</text></view>
+
+    <text class="text">目前，只有全日类型的泊位支持次日续时功能。
+    因为次日续时申请的时段不允许跨禁停时段、免费时段，所以请您谅解。</text>
+
+<view class="title"><icon type="success" color="#29faf9"size="18"/>
+    <text class="title2">使用次日续时功能您需要注意什么？</text></view>
+
+    <text class="text">第一、 您必须先停车，再申请。
+第二、 如果您将车辆中途开走，次日续时申请会自动取消。
+第三、 请保持您的账户余额充足，足够支付您申请的时长。否则，系统无法自动为您完成停车申请。
+第四、 一个泊位只接受一个账号的次日续时申请。
+第五、 一个账号只能申请一个泊位。
+第六、 要输入您的车辆所占用的泊位编号。千万不要输错哦，否则您就会替别人缴费了。</text>
+
+<view class="title"><icon type="success" color="#29faf9"size="18"/>
+    <text class="title2" >次日续时可以取消吗？</text></view>
+
+    <text class="text">如果您改变主意了，可以在次日续时界面中随时取消申请。
+如果申请提交后，您中途将车开走，系统会自动将其取消。
+</text>
+
+</view>

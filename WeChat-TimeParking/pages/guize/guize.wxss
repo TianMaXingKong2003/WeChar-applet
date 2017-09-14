@@ -1,0 +1,46 @@
+/* pages/guize/guize.wxss */
+.section{
+  border: 1rpx ;
+
+  height: 2500rpx;
+  display: flex ;
+  flex-direction: column;
+  background: gainsboro;
+
+  width: 750rpx;
+}
+.title{
+  border: 1rpx ;
+  height: 80rpx;
+  display: flex ;
+  flex-direction: row;
+  font-size: 38rpx;
+  margin-top: 80rpx;
+  margin-left: 30rpx;
+  color:black;
+  width: 700rpx;
+}
+.title2{
+  border: 1rpx ;
+  height: 38rpx;
+  display: flex ;
+  flex-direction: row;
+  font-size: 38rpx;
+  
+  margin-left: 30rpx;
+  color:black;
+  width: 700rpx;
+}
+.text{
+  width: 700rpx;
+  padding-top: 15rpx;
+  padding-left: 15rpx;
+  padding-bottom: 15rpx;
+  
+  margin-top: 38rpx;
+  margin-left: 20rpx;
+  margin-right: 25rpx;
+  background-color: white;
+  font-size: 20;
+  color:black;
+}

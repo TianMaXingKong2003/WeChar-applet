@@ -1,0 +1,9 @@
+/* operator_guide.wxss */
+.item{
+  border-bottom: 1rpx solid grey;
+  height: 70rpx;
+  padding: 40rpx 20rpx 0rpx 20rpx;
+}
+.top_item{
+  border-top: 1rpx solid grey;
+}
